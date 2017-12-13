@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main function Gets default data 1`] = `
+Object {
+  "lowest_price": "6,10€",
+  "median_price": "6,10€",
+  "success": true,
+  "volume": "8,472",
+}
+`;
+
+exports[`Main function Opens browser on user request 1`] = `
+Array [
+  Array [
+    "Right now [1mGamescom Invitational Crate[22m costs:
+    [90m- Lowest price:[39m [32m6,10€[39m
+    [90m- Median price:[39m [34m6,10€[39m
+    [90m- Volume:[39m [33m8,472[39m",
+  ],
+]
+`;
+
+exports[`Main function Renders correct data to a user 1`] = `
+Array [
+  Array [
+    "Right now [1mGamescom Invitational Crate[22m costs:
+    [90m- Lowest price:[39m [32m6,10€[39m
+    [90m- Median price:[39m [34m6,10€[39m
+    [90m- Volume:[39m [33m8,472[39m",
+  ],
+]
+`;

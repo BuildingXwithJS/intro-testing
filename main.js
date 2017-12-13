@@ -9,6 +9,13 @@ const generateDataUrl = (id, name) =>
 const generateUserUrl = (id, name) =>
   `http://steamcommunity.com/market/listings/${id}/${encodeURIComponent(name.toUpperCase())}`;
 
+const getData = async ({id, name}) => {
+  const dataUrl = generateDataUrl(id, name);
+  const result = await fetch(dataUrl).then(r => r.json());
+  return result;
+};
+exports.getData = getData;
+
 exports.command = '*';
 exports.describe = 'get prices for given app id and item name';
 exports.builder = {
@@ -20,9 +27,7 @@ exports.builder = {
   },
 };
 exports.handler = async ({id, name}) => {
-  const dataUrl = generateDataUrl(id, name);
-
-  const result = await fetch(dataUrl).then(r => r.json());
+  const result = await getData({id, name});
 
   console.log(`Right now ${chalk.bold('Gamescom Invitational Crate')} costs:
     ${chalk.gray('- Lowest price:')} ${chalk.green(result.lowest_price)}
