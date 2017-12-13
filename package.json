@@ -1,7 +1,7 @@
 {
   "name": "intro-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Introduction to basic unit and integration testing with jest",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
