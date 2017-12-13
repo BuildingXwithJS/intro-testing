@@ -1,0 +1,19 @@
+{
+  "name": "intro-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tim Ermilov <yamalight@gmail.com> (http://codezen.net)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "inquirer": "^4.0.1",
+    "node-fetch": "^1.7.3",
+    "opn": "^5.1.0",
+    "yargs": "^10.0.3"
+  }
+}
