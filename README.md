@@ -2,11 +2,18 @@
 
 > Free open-source in-depth tutorial on testing with jest, sinon and nock
 
-This repository contains code and related materials for [introduction to testing with jest, sinon and nock]() video.
+This repository contains code and related materials for [introduction to testing with jest, sinon and nock](https://youtu.be/KjicE1ccmi4) video.
 
 ## Project description
 
 This is a simple demonstation of ways to test your code using Jest, Sinon and Nock.
+
+## Related links
+
+* [Jest](https://facebook.github.io/jest/)
+* [vscode-jest](https://github.com/jest-community/vscode-jest)
+* [sinon](http://sinonjs.org/)
+* [nock](https://github.com/node-nock/nock)
 
 ## Useful links
 
